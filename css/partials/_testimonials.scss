@@ -1,0 +1,37 @@
+.testimonials {
+	text-align: center;
+	i {
+		color: #e1e1e1;
+		font-size: 55px;
+		font-weight: 400;
+		line-height: 37px;
+		margin-top: 100px;
+	}
+	h2 {
+		color: rgba(31,31,31,0.3);
+		font-size: 20px;
+		line-height: 29px;
+		margin-top: 64px;
+	}
+	p {
+		letter-spacing: 0.32px;
+		line-height: 24px;
+		margin-top: 33px;
+		margin-left: 11.2%;
+		margin-right: 11.5%;
+	}
+	h3 {
+		margin-top: 52px;
+		text-align: center;
+		color: #1f1f1f;
+		line-height: 30px;
+	}
+	h4 {
+		letter-spacing: 1.82px;
+		margin-bottom: 80px;
+	}
+}
+
+.testimonials.footer_boxes {
+	margin-bottom: 100px;
+}

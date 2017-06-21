@@ -1,0 +1,100 @@
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 36px;
+	color: $primaryColor;
+	font-weight: 700;
+	letter-spacing: 12px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 0 0 30px 0;
+}
+
+h2 {
+	font-size: 25px;
+	color: #000000;
+	font-weight: 700;
+	line-height: 37px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+h3 {
+	font-size: 14px;
+	color: rgba(31,31,31,0.3);
+	font-weight: 700;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+h4 {
+	font-size: 13px;
+	color: $secondaryColor;
+	font-weight: 700;
+	letter-spacing: 5.98px;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+
+h5 {
+	font-size: 13px;
+	color: $primaryColor;
+	font-weight: 400;
+	letter-spacing: 16px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+	color: $secondaryColor;
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+button {
+	height: 45px;
+	width: 145px;
+}
+
+.footer_boxes {
+	display: flex;
+	justify-content: center;
+}
+
+.footer_boxes div:last-child {
+	margin-right: 0;
+}
+
+.footer_box {
+	height: 12px;
+	width: 12px;
+	background-color: $secondaryColor;
+	margin-right: 13px;
+}
+
+.footer_box.black {
+	background-color: #000000;
+}
+
+span {
+	border-bottom: $secondaryColor solid 1px;
+	padding-bottom: 20px;
+}

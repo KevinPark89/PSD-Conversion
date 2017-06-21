@@ -1,0 +1,59 @@
+.contact {
+	background-image: url(../assets/cat_bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	h5 {
+		padding-top: 172px;
+	}
+	h2 {
+		color: $primaryColor;
+		margin-top: 17px;
+	}
+	p {
+		margin-top: 54px;
+		margin-left: 11.2%;
+		margin-right: 11.5%;
+		letter-spacing: 0.32px;
+		line-height: 24px;
+		color: $primaryColor;
+	}
+	button {
+		margin-top: 60px;
+		margin-bottom: 160px;
+		height: 45px;
+		width: 155px;
+		background: transparent;
+		border: $primaryColor 1px solid;
+		h4 {
+			color: $primaryColor;
+			letter-spacing: 1.82px;
+			line-height: 29px;	
+		}
+		
+	}
+}
+
+.contact_background_gradient {
+	background-color: rgba(3,3,3,0.3)
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	.contact {
+		h5 {
+			letter-spacing: 12px;
+			margin: 0 10px;
+		}
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	
+}

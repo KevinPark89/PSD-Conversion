@@ -1,0 +1,56 @@
+.offers {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.offers .offers_offering:last-child {
+	border-right: #f3f3f3 solid 1px;
+}
+
+.offers_offering {
+	width: 25%;
+	border: #f3f3f3 solid 1px;
+	border-right: none;
+}
+
+.offers_content {
+	margin: 12% 16.6% 0 11%;
+	p {
+		text-align: left;
+		font-size: 15px;
+		line-height: 24px;
+		margin-bottom: 24.6%
+	}
+	img {
+		margin-bottom: 10%;
+	}
+	h3 {
+		margin-bottom: 12.5%;
+	}
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	.offers_offering {
+		width: 50%;
+		border: #f3f3f3 solid 1px;
+		border-right: none;
+	}
+	.offers_content {
+		margin: 12% 15px 0 15px;
+		p {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
